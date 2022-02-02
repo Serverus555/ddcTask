@@ -15,6 +15,7 @@ Docker: serverus555/ddc-task
 - Чтение: get на /news/{id}
 - Получить всё: get на /news  
   - В ответ приходят новости без полного описания
+- Получить новости по типу: get на /news/byType/{typeId}
 - Обновление: put на /news/{id}  
   - Возможные параметры: name, shortDescription, description, typeId
 - Удаление: delete на /news/{id}
